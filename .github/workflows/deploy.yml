@@ -26,4 +26,4 @@ jobs:
 
       - run: aws s3 sync dist s3://jkrishnnan-demo-s3 --delete
 
-      - run: aws cloudfront create-invalidation --distribution-id YOUR-DISTRIBUTION-ID --paths "/*"
+      - run: aws cloudfront create-invalidation --distribution-id ESA6NWU6TTOZQ --paths "/*"
